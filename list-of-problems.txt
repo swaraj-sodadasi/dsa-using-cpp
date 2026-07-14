@@ -1,0 +1,1032 @@
+
+## 1. Introduction (Arrays, Vectors, and Basic Control Flow)
+
+### Easy
+
+1. [Easy] Two Sum (Hash Map vs. Two-Pointer Approach)
+2. [Easy] Remove Duplicates from Sorted Array (In-place Manipulation)
+3. [Easy] Majority Element (Boyer-Moore Voting Algorithm)
+4. [Easy] Best Time to Buy and Sell Stock (Single Transaction/Prefix Min)
+5. [Easy] Move Zeroes (Maintain Relative Order)
+6. [Easy] Squares of a Sorted Array (Two-Pointer Convergence)
+7. [Easy] Merge Sorted Array (Right-to-Left In-place Merge)
+8. [Easy] Find Pivot Index (Prefix Sum vs. Suffix Sum Equilibrium)
+9. [Easy] Valid Mountain Array (Single-Pass State Tracking)
+10. [Easy] Plus One (Array-based Arbitrary-Precision Arithmetic)
+
+### Medium
+
+1. [Medium] 3Sum (Two-Pointer with Duplicate Avoidance)
+2. [Medium] Subarray Sum Equals K (Prefix Sum Optimization using Hash Map)
+3. [Medium] Next Permutation (Lexicographical Sequence Generation)
+4. [Medium] Product of Array Except Self (Prefix and Suffix Accumulation without Division)
+5. [Medium] Spiral Matrix (Boundary Simulation and Traversal)
+6. [Medium] Container With Most Water (Greedy Two-Pointer Expansion)
+7. [Medium] Longest Turbulent Subarray (Dynamic State Tracking/Sliding Window)
+8. [Medium] Rotate Image (In-place 2D Matrix Transposition and Reflection)
+9. [Medium] Insert Delete GetRandom O(1) (Hash Map and Dynamic Vector Integration)
+10. [Medium] Maximum Subarray (Kadane’s Algorithm / Maximum Segment Sum)
+
+### Hard
+
+1. [Hard] First Missing Positive (Array as a Cyclic Hash Map / Index-as-Key Placement)
+2. [Hard] Trapping Rain Water (Two-Pointer vs. Monotonic Stack Boundary Tracking)
+3. [Hard] Max Chunks To Make Sorted II (Prefix Max and Suffix Min Monotonic Comparisons)
+4. [Hard] Reverse Pairs (Merge Sort Tree / Divide and Conquer Inversion Counting)
+5. [Hard] Sliding Window Maximum (Monotonic Deque Optimization)
+6. [Hard] Candy (Two-Pass Greedy Distribution)
+7. [Hard] Median of Two Sorted Arrays (Binary Search on Split Partitions)
+8. [Hard] Minimum Window Substring (Two-Pointer Frequency-Count Sliding Window)
+9. [Hard] Subarrays with K Different Integers (Exact K via At-Most-K Window Difference)
+10. [Hard] Largest Rectangle in Histogram (Monotonic Stack Boundary Expansion)
+
+---
+
+## 2. Mathematics (Number Theory, Combinatorics, and Geometry)
+
+### Easy
+
+1. [Easy] Count Primes (Sieve of Eratosthenes)
+2. [Easy] Greatest Common Divisor of Strings (Euclidean Algorithm Adaptation)
+3. [Easy] Palindrome Number (Integer Reversal without Overflow)
+4. [Easy] Ugly Number (Prime Factor Decomposition)
+5. [Easy] Excel Sheet Column Title (Base-26 Bijective Numeration Conversion)
+6. [Easy] Add Binary (Bitwise-like String Arithmetic)
+7. [Easy] Happy Number (Floyd's Cycle-Finding Algorithm on Digit Squares)
+8. [Easy] Power of Three (Logarithmic Check / Max-Int Divisor Trick)
+9. [Easy] Valid Perfect Square (Binary Search / Newton's Method)
+10. [Easy] Minimum Moves to Equal Array Elements (Mathematical Reduction / Min Element Anchor)
+
+### Medium
+
+1. [Medium] Pow(x, n) (Binary Exponentiation / Exponentiation by Squaring)
+2. [Medium] Integer to Roman (Greedy Value-Mapping Decomposition)
+3. [Medium] Count Numbers with Unique Digits (Combinatorial Permutations)
+4. [Medium] Valid Square (Geometric Coordinate Geometry and Side-Length Analysis)
+5. [Medium] Unique Paths (Combinatorics / Binomial Coefficients $nCr$)
+6. [Medium] Nth Magical Number (Least Common Multiple + Binary Search on Range)
+7. [Medium] Reordered Power of 2 (Digit Frequency Counting and Matching)
+8. [Medium] Super Pow (Modular Exponentiation with Euler's Totient Theorem)
+9. [Medium] Continuous Subarray Sum (Modular Prefix Sum Check)
+10. [Medium] Prime Factorization / K-th Factor of N (Trial Division Optimization up to $\sqrt{N}$)
+
+### Hard
+
+1. [Hard] Max Points on a Line (Geometric Slope Hashing with GCD Reduction)
+2. [Hard] Permutation Sequence (Factorial Number System / Cantor Expansion)
+3. [Hard] Poor Pigs (Information Theory and Combinatorial Dimensionality)
+4. [Hard] Preimage Size of Factorial Zeroes Function (Legendre's Formula + Binary Search)
+5. [Hard] Numbers At Most N Given Digit Set (Digit DP / Combinatorial Counting)
+6. [Hard] Count Primes in a Range / Sieve Optimization (Segmented Sieve for Large Ranges)
+7. [Hard] Reachable Nodes In Subdivided Graph (Dijkstra Extended with Edge Remainder Math)
+8. [Hard] Maximum Score Words Formed by Letters (Backtracking with Combinatorial Pruning)
+9. [Hard] Best Position for a Service Centre (Geometric Median / Weiszfeld's Algorithm)
+10. [Hard] Sum of Floyd-Warshall/All-Pairs Shortest Path Math Variances (Contribution to Sum Technique)
+
+---
+
+## 3. Bit Manipulation
+
+### Easy
+
+1. [Easy] Number of 1 Bits (Hamming Weight / Brian Kernighan’s Algorithm)
+2. [Easy] Counting Bits (Pattern-Based Dynamic Programming using Bit-Shifting)
+3. [Easy] Reverse Bits (Unsigned Integer Bitwise Reversal)
+4. [Easy] Single Number (XOR Cancellation Property)
+5. [Easy] Missing Number (XOR Index-Value Pairing)
+6. [Easy] Power of Two (Bitwise AND with Predecessor Check)
+7. [Easy] Hamming Distance (XOR Population Count)
+8. [Easy] Alternating Bits (Bitwise Shift XOR Validation)
+9. [Easy] Binary Number with Alternating Bits (Bitwise Structural Isolation)
+10. [Easy] Number Complement (Bitwise Flip using Bit-Masking)
+
+### Medium
+
+1. [Medium] Single Number II (Bitwise Bit-Position Modulo-3 Counting)
+2. [Medium] Single Number III (Isolation of Low-Set Bit via XOR Partitioning)
+3. [Medium] Bitwise AND of Numbers Range (Common MSB Prefix Identification)
+4. [Medium] Maximum Product of Word Lengths (Bitmask-Encoded String Character Sets)
+5. [Medium] Subsets (Bitmask-Driven Combinatorial Power Set Generation)
+6. [Medium] Maximum XOR of Two Numbers in an Array (Trie-Based Bitwise Bit-Matching)
+7. [Medium] Integer Replacement (Bitwise Least Significant Bit Optimization Tactics)
+8. [Medium] Gray Code (Binary to Gray Code Conversion Math)
+9. [Medium] Sum of Two Integers (Half-Adder Logic using XOR and Bitwise Shifts)
+10. [Medium] UTF-8 Validation (Bitmask Byte-Header Pattern Tracking)
+
+### Hard
+
+1. [Hard] Maximum XOR With Element From Array (Trie-Based Bitwise Query with Sorting Constraints)
+2. [Hard] Find Longest Awesome Substring (Bitmask State Tracking for Palindromic Parity)
+3. [Hard] Can I Win (Bitmask Memoization / Minimax Game Theory DP)
+4. [Hard] Minimum Number of Work Sessions to Finish the Tasks (Bitmask DP Subsets)
+5. [Hard] Smallest Sufficient Team (Bitmask Dynamic Programming / Set Cover Problem)
+6. [Hard] Number of Valid Words for Each Puzzle (Bitmask Frequency Matching / Submask Enumeration)
+7. [Hard] Maximize Score After N Operations (Bitmask DP with Greatest Common Divisor Math)
+8. [Hard] Distribute Repeating Integers (Bitmask DP with Backtracking Pruning)
+9. [Hard] Find Shortest Path Visiting All Nodes (Bitmask BFS State Space Expansion)
+10. [Hard] Maximum And Sum of Array (Bitmask DP / Ternary Mask System Matching)
+
+---
+
+## 4. Recursion (Backtracking and Divide & Conquer)
+
+### Easy
+
+1. [Easy] Fibonacci Number (Basic Linear vs. Tree Recursion)
+2. [Easy] Reverse String (In-place Recursive Swapping)
+3. [Easy] Merge Two Sorted Lists (Recursive Pointer Realignment)
+4. [Easy] Binary Tree Inorder Traversal (System Stack Backtracking Replication)
+5. [Easy] Search in a Binary Search Tree (Recursive Path Selection)
+6. [Easy] Range Sum of BST (Recursive Node Bounds Pruning)
+7. [Easy] Power of Four (Pure Recursive Sub-problem Reduction)
+8. [Easy] Count Good Triplets (Recursive Multi-Loop Branching Structures)
+9. [Easy] Recursive Digit Sum (Super Digit Sum Computation)
+10. [Easy] Print 1 to N Without Loops (Recursive Call-Stack Induction)
+
+### Medium
+
+1. [Medium] Subsets II (Recursive Backtracking with Frequency Sorting to Avoid Duplicates)
+2. [Medium] Permutations (Recursive In-place Element Swapping)
+3. [Medium] Combination Sum (Unbounded Knapsack-Style Recursive State Search)
+4. [Medium] Letter Combinations of a Phone Number (Multi-Branch Cartesian Product Backtracking)
+5. [Medium] Generate Parentheses (Catalan-Based Recursive Validation)
+6. [Medium] Word Search (Matrix DFS with In-place Grid Visited Masking)
+7. [Medium] Path Sum II (Binary Tree Top-Down Recursive Path Tracking)
+8. [Medium] Different Ways to Add Parentheses (Divide and Conquer Expression Parsing)
+9. [Medium] Partition to K Equal Sum Subsets (Recursive Bucket Filling with Pruning Optimization)
+10. [Medium] Matchsticks to Square (Recursive Optimization / Search Order Sorting)
+
+### Hard
+
+1. [Hard] N-Queens (Recursive Grid Placement with Fast Bit-Vector Conflict Checks)
+2. [Hard] Sudoku Solver (Recursive Multi-Constraint Constraint Satisfaction Problem)
+3. [Hard] Word Search II (Trie-Accelerated Multi-String Backtracking Matrix Search)
+4. [Hard] Palindrome Partitioning II (Recursive Cut Optimization with Dynamic Programming)
+5. [Hard] Expression Add Operators (Recursive Backtracking with Operator Precedence Variables)
+6. [Hard] Remove Invalid Parentheses (Recursive Backtracking with BFS Minimal-Cut Pruning)
+7. [Hard] Regular Expression Matching (Recursive Tokenization / Wildcard Branching DP)
+8. [Hard] Unique Paths III (Recursive Hamiltonian Path Grid Cover Tracking)
+9. [Hard] The Skyline Problem (Divide and Conquer Coordinate Boundary Splitting)
+10. [Hard] Tower of Hanoi Variant with Constraints (Recursive State Transfer Optimization)
+
+---
+
+## 5. Arrays (Advanced Manipulation, Windowing, and Frequency Analysis)
+
+### Easy
+
+1. [Easy] Maximum Product of Two Elements in an Array (Two-Pass Max Extraction)
+2. [Easy] Intersection of Two Arrays II (Hash Map Frequency Tracking vs. Sorted Two-Pointer)
+3. [Easy] Check If Array Is Sorted and Rotated (Single-Pass Inflection Point Counting)
+4. [Easy] Find All Numbers Disappeared in an Array (In-place Element Negation Index Mapping)
+5. [Easy] Contains Duplicate II (Sliding Window Hash Set Optimization)
+6. [Easy] Maximum Average Subarray I (Fixed-Size Sliding Window Accumulation)
+7. [Easy] Monotonic Array (Single-Pass Multi-State Flag Evaluation)
+8. [Easy] Can Place Flowers (Greedy Adjacent Element Inspection)
+9. [Easy] Find Common Characters (Global Min-Frequency Array Intersection)
+10. [Easy] Left and Right Sum Differences (Running Absolute Prefix Difference)
+
+### Medium
+
+1. [Medium] Longest Consecutive Sequence (Unordered Set Boundary Expansion)
+2. [Medium] Subarray Sums Divisible by K (Modular Prefix Sum Frequency Hashing)
+3. [Medium] Non-overlapping Intervals (Greedy Interval Scheduling based on End Times)
+4. [Medium] Merge Intervals (Sorting-Based Overlapping Boundary Consolidation)
+5. [Medium] Minimum Size Subarray Sum (Variable-Length Sliding Window Expansion/Contraction)
+6. [Medium] Find All Duplicates in an Array (In-place Index Inversion Marker Assignment)
+7. [Medium] Beautiful Array (Divide and Conquer Linear Transformation Construction)
+8. [Medium] Gas Station (Greedy Accumulation / Single-Pass Deficit Traversal)
+9. [Medium] Task Scheduler (Greedy Frequency Interleaving / Idle Slot Computation)
+10. [Medium] H-Index (Bucket Sort Frequency Distribution Mapping)
+
+### Hard
+
+1. [Hard] Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit (Sliding Window with Max-Min Monotonic Deques)
+2. [Hard] Count of Smaller Numbers After Self (Merge Sort with Coordinate Inversion Tracking)
+3. [Hard] Minimum Number of K Consecutive Bit Flips (Sliding Window Diff Array Event Tracking)
+4. [Hard] Create Maximum Number (Greedy Monotonic Subsequence Selection and Interleaving)
+5. [Hard] Splitting a String Into Descending Consecutive Values (Backtracking State Pruning)
+6. [Hard] Subarray With Elements Greater Than Varying Threshold (Monotonic Stack Segment Analysis)
+7. [Hard] Maximum Product Subarray (Dynamic Min-Max Product Bounds State Tracking)
+8. [Hard] Smallest K-Length Subsequence With Occurrences of a Letter (Greedy Deque with Frequency Constraints)
+9. [Hard] Global and Local Inversions (Mathematical Bound Verification vs. Merge-Sort Inversion Count)
+10. [Hard] Maximum Fruit Selected After Distributing Balance (Greedy Two-Pointer Optimization with Bounded Backtracking)
+
+---
+
+## 6. Searching (Binary Search, Monotonic Functions, and Range Queries)
+
+### Easy
+
+1. [Easy] Binary Search (Iterative vs. Recursive Interval Halving)
+2. [Easy] First Bad Version (Left-Biased Binary Decision Boundary Location)
+3. [Easy] Search Insert Position (Lower Bound Location Mechanics)
+4. [Easy] Peak Index in a Mountain Array (Monotonic Derivative Zero-Crossing Approximation)
+5. [Easy] Guess Number Higher or Lower (Interactive Binary Search)
+6. [Easy] Count Negative Numbers in a Sorted Matrix (Staircase Elimination From Corner)
+7. [Easy] Special Array With X Elements Greater Than or Equal X (Binary Search on Answer Range)
+8. [Easy] Find Target Indices After Sorting Array (Lower/Upper Bound Counting)
+9. [Easy] Check If N and Its Double Exist (Hash Set Search Integration)
+10. [Easy] Intersection of Two Arrays (Unordered Set Value Membership)
+
+### Medium
+
+1. [Medium] Search in Rotated Sorted Array (Pivot Discontinuity Detection and Branch Pruning)
+2. [Medium] Find First and Last Position of Element in Sorted Array (Custom Lower and Upper Bound Implementations)
+3. [Medium] Find Peak Element (Local Extrema Localized Binary Search)
+4. [Medium] Kth Smallest Element in a Sorted Matrix (Binary Search on Value Range vs. Min-Heap)
+5. [Medium] Capacity To Ship Packages Within D Days (Monotonic Capacity Allocation Checking)
+6. [Medium] Koko Eating Bananas (Monotonic Speed Constraints Evaluation)
+7. [Medium] Search in Rotated Sorted Array II (Discontinuity Search Handling Duplicate Elements)
+8. [Medium] Single Element in a Sorted Array (Parity Index Halving Strategy)
+9. [Medium] Find Right Interval (Sorting with Binary Search Upper Bound Mapping)
+10. [Medium] Minimize Maximum Distance to Gas Station (Fractional Floating-Point Binary Search)
+
+### Hard
+
+1. [Hard] Split Array Largest Sum (Minimax Binary Search on Answer / Monotonic Subarray Partitioning)
+2. [Hard] Find Minimum in Rotated Sorted Array II (Discontinuity Detection under Degenerate Duplicates)
+3. [Hard] Swim in Rising Water (Binary Search on Threshold Range + BFS Connectivity Check)
+4. [Hard] K-th Smallest Prime Fraction (Binary Search on Fractional Float Range with Two-Pointer Counting)
+5. [Hard] Median of Two Sorted Arrays (Simultaneous Matrix/Array Division Optimization)
+6. [Hard] Subsequence With the Minimum Score (Two-Pointer Prefix/Suffix Deletion Search)
+7. [Hard] Minimize the Maximum Difference of Pairs (Greedy Pairing Verification + Binary Search)
+8. [Hard] Smallest Good Base (Mathematical Representation Binary Search / Base Extraction)
+9. [Hard] Maximum Value at a Given Index in a Bounded Array (Arithmetic Progression Math Calculation + Binary Search)
+10. [Hard] Maximum Running Time of N Computers (Greedy Allocation Strategy + Binary Search)
+
+---
+
+## 7. Sorting (Divide & Conquer, Comparison vs. Non-Comparison, and Custom Orderings)
+
+### Easy
+
+1. [Easy] Sort Array By Parity (In-place Inversion Pointer Swap)
+2. [Easy] Valid Anagram (Frequency Sorting Bucket Verification)
+3. [Easy] Rank Transform of an Array (Sorted Map / Hash Coordinate Compression)
+4. [Easy] Height Checker (Sorting Comparison vs. Frequency Discrepancy Counting)
+5. [Easy] Make Two Arrays Equal by Reversing Sub-arrays (Frequency-Based Equivalency Check)
+6. [Easy] Minimum Absolute Difference (Sorting with Single-Pass Minimum Distance Tracking)
+7. [Easy] Sort Integers by The Number of 1 Bits (Custom Comparator Lambda Sorting)
+8. [Easy] Array Partition (Sorting and Greedy Pair Minimization)
+9. [Easy] Majority Element II (Boyer-Moore Variant with Validation Sorting Pass)
+10. [Easy] Largest Perimeter Triangle (Sorting with Greedy Degenerate Triangle Check)
+
+### Medium
+
+1. [Medium] Kth Largest Element in an Array (Quick-Select Partitioning Optimization)
+2. [Medium] Sort Colors (Dijkstra's Three-Way Partitioning / Dutch National Flag Problem)
+3. [Medium] Top K Frequent Elements (Bucket Sort Optimization vs. Quick-Select)
+4. [Medium] Sort Characters By Frequency (Max-Heap Bucket Structure Frequency Rearrangement)
+5. [Medium] Custom Sort String (Custom Ordering Key Pre-Computation Sorting)
+6. [Medium] Diagonal Traverse II (Bucket Sort Index-Sum Collection Mapping)
+7. [Medium] Diagonal Sort Matrix (In-place Sorting of Independent Diagonal Paths)
+8. [Medium] Largest Number (String Lexicographical Concatenation Custom Comparison)
+9. [Medium] Minimum Swaps to Sort An Array (Cycle Decomposition Analysis)
+10. [Medium] Wiggle Sort II (Virtual Index Mapping with Three-Way Element Partitioning)
+
+### Hard
+
+1. [Hard] Maximum Gap (Pigeonhole Principle Based Radix/Bucket Boundary Sorting)
+2. [Hard] Longest Common Subpath (Suffix Array Construction with LCP Binary Search Queries)
+3. [Hard] Minimum Initial Energy to Complete Tasks (Greedy Sort based on Variance Deficit)
+4. [Hard] Number of Wiggle Subsequences (Dynamic State Sorting Optimization Pass)
+5. [Hard] Design an Ordered Stream (Online Chunked Sorting Stream Architecture)
+6. [Hard] Range Module (Interval Tree / Segment Insertion Sorting and Deletion)
+7. [Hard] Sort Items by Groups Respecting Dependencies (Double-Tiered Topological Sort)
+8. [Hard] Minimum Cost to Sort an Array Matrix (Cycle Traversal Cost Evaluation)
+9. [Hard] Earliest Possible Day of Full Bloom (Greedy Sorting based on Independent Growth Cycles)
+10. [Hard] Minimum Total Distance Traveled (Factory Location Coordinate Sorting with Matrix DP)
+
+---
+
+## 8. Matrix (Grid Traversals, In-place Mutations, and Coordinate States)
+
+### Easy
+
+1. [Easy] Flood Fill (Recursive DFS/BFS Grid Color Reassignment)
+2. [Easy] Island Perimeter (Coordinate Intersection Edge Metric Deduction)
+3. [Easy] Reshape the Matrix (Row-Major to Column-Major Mapping Arithmetic)
+4. [Easy] Matrix Diagonal Sum (Index-Matching Primary/Secondary Cross Collection)
+5. [Easy] Transpose Matrix (Coordinate Index Inversion Matrix Mutation)
+6. [Easy] Cells with Odd Values in a Matrix (Row/Column Operation Accumulation Tracking)
+7. [Easy] Flipping an Image (Horizontal Inversion followed by Bitwise Negation)
+8. [Easy] Shift 2D Grid (Linearized Index Shift Transformation)
+9. [Easy] Available Captures for Rook (Directional Cross-Ray Matrix Scanning)
+10. [Easy] Lucky Numbers in a Matrix (Row Minima and Column Maxima Cross Validation)
+
+### Medium
+
+1. [Medium] Search a 2D Matrix II (Staircase Elimination Strategy from Top-Right Corner)
+2. [Medium] Number of Islands (Connected Components Traversal Matrix Labeling)
+3. [Medium] Rotting Oranges (Multi-Source Breadth-First Search Level State Tracking)
+4. [Medium] 01 Matrix (Multi-Source BFS Range Search vs. Two-Pass DP Relaxation)
+5. [Medium] Set Matrix Zeroes (First Row/Column In-place State Flags Optimization)
+6. [Medium] Word Search (Matrix DFS Path Masking with Grid Backtracking)
+7. [Medium] Maximal Square (2D Matrix Dynamic Programming Area Expansion)
+8. [Medium] Spiral Matrix II (Layer-by-Layer Coordinate Simulation and Generation)
+9. [Medium] Pacific Atlantic Water Flow (Simultaneous Reverse-Boundary Traversal Confluence)
+10. [Medium] Count Submatrices With All Ones (Histogram Monotonic Stack Integration across 2D Planes)
+
+### Hard
+
+1. [Hard] Making A Large Island (Component Area ID Hashing + Boundary Evaluation)
+2. [Hard] Shortest Path in a Grid with Obstacles Elimination (3D BFS State Representation Space)
+3. [Hard] Maximal Rectangle (2D Matrix Histogram Conversion + Monotonic Stack Search)
+4. [Hard] Dungeon Game (Reverse Dynamic Programming Target HP Traversal)
+5. [Hard] Sudoku Solver (Matrix Backtracking with Multi-Constraint Verification Matrices)
+6. [Hard] Cherry Pickup (Simultaneous Two-Path 3D Matrix Dynamic Programming Coordination)
+7. [Hard] Bricks Falling When Hit (Reverse Time Processing with Grid Connectivity Components)
+8. [Hard] Shortest Path to Get All Keys (Bitmask States Integrated into Multi-Source Grid BFS)
+9. [Hard] Cut Off Trees for Golf Event (Hadlock's Routing Algorithm / Multi-Target Sorted BFS)
+10. [Hard] Contain Virus (Grid Simulation Tracking Perimeter Multiplication and Area Encapsulation)
+
+---
+
+## 9. Hashing (Frequency Mapping, Hash Maps, Sets, and Custom Key Design)
+
+### Easy
+
+1. [Easy] Two Sum (O(1) Hash Map Value-Index Mapping)
+2. [Easy] First Unique Character in a String (Two-Pass Frequency Array Lookup)
+3. [Easy] Intersection of Two Arrays (Unique Elements Collection via Hash Set)
+4. [Easy] Contains Duplicate (Basic Hash Set Membership Verification)
+5. [Easy] Valid Anagram (Single-Array Fixed Bucket Frequency Counting)
+6. [Easy] Isomorphic Strings (Dual-Mapping Character-to-Character Validation)
+7. [Easy] Word Pattern (String-to-String Bijective Dictionary Mapping)
+8. [Easy] Find Common Characters (Global Minimum Intersecting Frequencies)
+9. [Easy] Destination City (Hash Set Tracking for Out-Degree Zero Nodes)
+10. [Easy] Unique Number of Occurrences (Frequency Value-to-Set Uniqueness Verification)
+
+### Medium
+
+1. [Medium] Group Anagrams (Sorted String vs. Frequency Character Mask as Hash Map Key)
+2. [Medium] Subarray Sum Equals K (Prefix Sum Frequency Map Isolation)
+3. [Medium] Longest Consecutive Sequence (Unordered Set Boundary Extraction and Expansion)
+4. [Medium] 4Sum (Two-Sum Dynamic Extensions with Hash Map Partitioning)
+5. [Medium] Insert Delete GetRandom O(1) (Hash Map Cross-Linked with Dynamic Vector)
+6. [Medium] Find All Anagrams in a String (Sliding Window Character Frequency Profiling)
+7. [Medium] Continuous Subarray Sum (Modular Prefix Sum Remainder Matching)
+8. [Medium] Top K Frequent Words (Trie or Hash Map combined with Min-Heap Custom Comparison)
+9. [Medium] Copy List with Random Pointer (Deep Copy Node-to-Node Address Mapping)
+10. [Medium] Encode and Decode TinyURL (Custom Hash Function / Base-62 ID Mapping)
+
+### Hard
+
+1. [Hard] Max Points on a Line (Geometric Slope Hashing via Coprime Fraction Reductions)
+2. [Hard] Subarrays with K Different Integers (Sliding Window Frequency Hash Map Difference: AtMost(K) - AtMost(K-1))
+3. [Hard] Grid Illumination (Row, Column, and Dual-Diagonal Multi-Map Frequency Tracking)
+4. [Hard] First Missing Positive (In-place Index Inversion Hash Simulation)
+5. [Hard] Minimum Window Substring (Two-Pointer Frequency Goal-State Counter Tracking)
+6. [Hard] Subarray Sums Divisible by K (Negative Modulo-Safe Prefix Hash Maps)
+7. [Hard] Longest Duplicate Substring (Rabin-Karp Rolling Hash paired with Binary Search)
+8. [Hard] Find Longest Awesome Substring (Bitmask Character-Parity State Prefix Hashing)
+9. [Hard] Tuple with Same Product (Product Frequency Map Permutations)
+10. [Hard] Maximize the Number of Bounded Subarrays (De-Polished Monotonic Windows + Hash Counter Pairs)
+
+---
+
+## 10. Strings (Parsing, Sliding Windows, Pattern Matching, and Substring Properties)
+
+### Easy
+
+1. [Easy] Valid Palindrome (Two-Pointer Alphanumeric Filtering and Comparison)
+2. [Easy] Longest Common Prefix (Horizontal vs. Vertical Character Scanning)
+3. [Easy] Implement strStr() (KMP Pattern Pre-processing vs. Naive Substring Search)
+4. [Easy] Reverse String (In-place Recursive or Two-Pointer Swapping)
+5. [Easy] Length of Last Word (Trailing Space-Aware Reverse Traversal)
+6. [Easy] Valid Parentheses (Basic Bracket Pair State Validation)
+7. [Easy] Reverse Words in a String III (Space-Delimited Segment Rotation)
+8. [Easy] Fizz Buzz (String Vector Allocation Patterns)
+9. [Easy] Robot Return to Origin (Coordinate Command Accumulation)
+10. [Easy] Defanging an IP Address (Character Array Sub-insertion Replacements)
+
+### Medium
+
+1. [Medium] Longest Substring Without Repeating Characters (Dynamic Sliding Window with Character-Index Hash Maps)
+2. [Medium] String to Integer / atoi (Edge Case White-Space, Sign, and Overflow Handling)
+3. [Medium] Longest Palindromic Substring (Expand Around Center Strategy vs. DP Matrix)
+4. [Medium] Reverse Words in a String (In-place Word Sequence Vector Inversion)
+5. [Medium] Zigzag Conversion (Row-Indexed Matrix Projection String Accumulation)
+6. [Medium] Decode String (Nested Multiplier Stack Expression Parsing)
+7. [Medium] Multiply Strings (Digit-by-Digit Array Accumulation Arithmetic)
+8. [Medium] Repeated String Match (Rabin-Karp Substring Validation / Upper Limit Expansion)
+9. [Medium] Sentence Similarity III (Prefix and Suffix Word Partition Elimination)
+10. [Medium] Minimum Deletions to Make Character Frequencies Unique (Greedy Sorting / Priority Decrementing)
+
+### Hard
+
+1. [Hard] Orderly Queue (Lexicographical Minimization / Booth's Algorithm Theory)
+2. [Hard] Shortest Palindrome (KMP Failure Function Prefix-Suffix Verification)
+3. [Hard] Distinct Subsequences (Two-Dimensional Dynamic Programming Pattern Matching)
+4. [Hard] Text Justification (Greedy Line Construction with Distributed Space Layouts)
+5. [Hard] Wildcard Matching (Two-Pointer Linear Optimization vs. 2D DP Grid Evaluation)
+6. [Hard] Word Ladder II (BFS Layer-by-Layer Directed Shortest Path Graph Backtracking)
+7. [Hard] Palindrome Partitioning II (Min-Cut Dynamic Programming Optimization)
+8. [Hard] Regular Expression Matching (Recursive Tokenization with Wildcard Branching DP)
+9. [Hard] Minimum Window Subsequence (Two-Pointer Double-Pass Alignment Scan)
+10. [Hard] Advanced Substring Match with Displacements (Aho-Corasick Automated State Space Processing)
+
+---
+
+## 11. Linked List (Pointer Manipulation, Structural Inversions, and Multi-Pointer Tracks)
+
+### Easy
+
+1. [Easy] Reverse Linked List (Iterative Three-Pointer Pointer-Inversion Strategy)
+2. [Easy] Merge Two Sorted Lists (Iterative Node Realignment with a Dummy Head)
+3. [Easy] Linked List Cycle (Floyd's Tortoise and Hare Pointer Discrepancy Tracking)
+4. [Easy] Middle of the Linked List (Fast and Slow Multiplier Pointer Realignment)
+5. [Easy] Delete Node in a Linked List (Value Displacement Overwrite Mutation)
+6. [Easy] Remove Linked List Elements (Target Node Bypass Pointer Manipulation)
+7. [Easy] Palindrome Linked List (Midpoint Break, Suffix Reversal, and Sequential Traversal)
+8. [Easy] Intersection of Two Linked Lists (Dual Pointer Travel-Length Offset Alignment)
+9. [Easy] Remove Duplicates from Sorted List (Single-Pass Value Continuity Check)
+10. [Easy] Convert Binary Number in a Linked List to Integer (Bitwise Accumulation on Traversal)
+
+### Medium
+
+1. [Medium] Add Two Numbers (Node-by-Node Summation with Carry Propagation Tracking)
+2. [Medium] Remove Nth Node From End of List (Two-Pointer Fixed Gap Look-Ahead Window)
+3. [Medium] Linked List Cycle II (Floyd’s Cycle Location Discovery Anchor Formula)
+4. [Medium] Reorder List (Midpoint Split, Sub-list Inversion, and Interleaved Node Splicing)
+5. [Medium] Sort List (Divide and Conquer Merge Sort over List Space)
+6. [Medium] Rotate List (Circular Linking, Length Bounds Counting, and Target Splitting)
+7. [Medium] Odd Even Linked List (Dual Segment Component Splicing via Structural Indexes)
+8. [Medium] Partition List (Less-Than vs. Greater-Than Split Boundary Splicing)
+9. [Medium] Swap Nodes in Pairs (Adjacent Pointer Modification and Group Readjustment)
+10. [Medium] Flatten a Multilevel Doubly Linked List (Recursive Stack Flattening with Child Node Interventions)
+
+### Hard
+
+1. [Hard] Merge k Sorted Lists (Divide and Conquer Merge Sorting vs. Min-Heap Multi-Pointer Alignment)
+2. [Hard] Reverse Nodes in k-Group (K-Length Block Validity Check + In-place Head-Tail Reversal Chains)
+3. [Hard] LRU Cache (Doubly Linked List Interlinked with a Value Hash Map Structure)
+4. [Hard] LFU Cache (Frequency Map of Doubly Linked Lists Tracking Node Expirations)
+5. [Hard] Reverse Alternate K Nodes (Iterative K-Step Inversion Interleaved with K-Step Skips)
+6. [Hard] Flattening a Linked List (Multi-Tier Vertical Heap Slices Extraction Sorting)
+7. [Hard] Split Linked List into Parts (Length Arithmetic Dynamic Allocation Groups)
+8. [Hard] Quick Sort on Singly Linked List (Pivot Selection Node Splicing Strategies)
+9. [Hard] Insert into a Cyclic Sorted List (Three-Case Pointer Inversion Insertion Geometry)
+10. [Hard] Design Skip List (Multi-Level Probabilistic Node Forward Indexes Layout)
+
+---
+
+## 12. Stack (LIFO Mechanics, Monotonic Formations, and Expression Evaluators)
+
+### Easy
+
+1. [Easy] Valid Parentheses (LIFO Complementary Bracket Pattern Tracking)
+2. [Easy] Min Stack (Dual-Stack Value Tracking vs. Single-Stack Math Displacement Formula)
+3. [Easy] Implement Queue using Stacks (Amortized Dual-Stack Input-Output Transfer Operations)
+4. [Easy] Remove All Adjacent Duplicates In String (In-place Vector Stack Character Elimination)
+5. [Easy] Make The String Great (Adjacent Case-Insensitive Discrepancy Stack Pops)
+6. [Easy] Backspace String Compare (Stack Representation Comparison vs. Dual-Pass Reverse Iterators)
+7. [Easy] Final Prices With a Special Discount in a Shop (Basic Monotonic Next-Less Element Array Scan)
+8. [Easy] Crawler Log Folder (Depth Vector Level Integer Accumulation)
+9. [Easy] Next Greater Element I (Monotonic Hash Lookup Strategy for Subset Arrays)
+10. [Easy] Baseball Game (Dynamic Integer Stack History Adjustments)
+
+### Medium
+
+1. [Medium] Next Greater Element II (Circular Monotonic Stack via Modulo Array Doubling)
+2. [Medium] Daily Temperatures (Monotonic Stack Index Distance Calculations)
+3. [Medium] Evaluate Reverse Polish Notation (Postfix Arithmetic Operator Stack Evaluation)
+4. [Medium] Decode String (Dual Stack: Multiplier Stack Interleaved with Character Segment Buffer Stacks)
+5. [Medium] Online Stock Span (Online Monotonic Value-Index Pair Tracking Stream)
+6. [Medium] Minimum Remove to Make Valid Parentheses (Balanced Index Filtering Stack Track)
+7. [Medium] Score of Parentheses (Stack Weight Level Depth Tracking vs. Bit-Shifting Multiplication)
+8. [Medium] Simplify Path (Unix Directory Tokenization Stack Traversal)
+9. [Medium] Asteroid Collision (Direction-Based Conditional Collision Stack Simulation)
+10. [Medium] Remove K Digits (Greedy Monotonic Increasing Stack Peak Digit Removal)
+
+### Hard
+
+1. [Hard] Largest Rectangle in Histogram (Monotonic Stack Boundary Width Allocations)
+2. [Hard] Trapping Rain Water (Monotonic Stack Boundary Height Interceptions vs. Two-Pointer)
+3. [Hard] Maximal Rectangle (2D Matrix Histogram Array Translation + Monotonic Stack Core Execution)
+4. [Hard] Basic Calculator (Nested Bracket Strings Execution with Operator/Sign Stacks)
+5. [Hard] Subarray Min Sum / Sum of Subarray Minimums (Monotonic Stack Range Boundaries Contribution Factorization)
+6. [Hard] Maximum Score of a Good Subarray (Greedy Bounded Expansion Intersections vs. Monotonic Deque)
+7. [Hard] Parse Lisp Expression (Nested Scope Mapping Dictionary Stack Architecture)
+8. [Hard] Check If Word Is Valid After Substitutions (Pattern Substring Insertion Stack Simulation)
+9. [Hard] Number of Atoms (Chemical Formula Token Parsing Hash Maps stacked with Parentheses Layers)
+10. [Hard] Valid Parenthesis String (Dual Index Stacks Tracking Dynamic Wildcard Star Allocations)
+
+---
+
+## 13. Queue (FIFO Flows, Buffering, and Breadth-First Space Exploration)
+
+### Easy
+
+1. [Easy] Implement Stack using Queues (Amortized Single vs. Two-Queue LIFO Emulation)
+2. [Easy] Number of Recent Calls (Sliding Window Time-Stamp Queue Buffer)
+3. [Easy] First Unique Character in a String (Queue-Based Online Stream Processing)
+4. [Easy] Time Needed to Buy Tickets (FIFO Simulation via Cyclic Queue Rotation)
+5. [Easy] Design Circular Queue (Fixed-Size Array with Head/Tail Array Index Modulo Arithmetic)
+6. [Easy] Moving Average from Data Stream (Fixed-Capacity FIFO Floating Point Window Accumulator)
+7. [Easy] Binary Tree Level Order Traversal (Basic FIFO Breadth-First Search Layout)
+8. [Easy] Final Prices With a Special Discount (Queue-Based Forward Inspection Tracking)
+9. [Easy] Reveal Cards In Increasing Order (Simulated FIFO Deck Interleaving Rearrangement)
+10. [Easy] Implement a Thread-Safe Task Queue (Basic Mutex and Condition Variable Buffering)
+
+### Medium
+
+1. [Medium] Rotting Oranges (Multi-Source Breadth-First Search Level State Tracking)
+2. [Medium] 01 Matrix (Multi-Source BFS Range Search Distance Propagation)
+3. [Medium] Design Circular Deque (Dynamic Head-Tail Array Boundary Shifts)
+4. [Medium] Open the Lock (State-Space Combo Graph BFS Optimization)
+5. [Medium] Snorkeling/Wall Gates and Guards (Multi-Source FIFO Proximity Mapping)
+6. [Medium] Shortest Path in Binary Matrix (8-Directional Grid Edge Relaxation via Queue)
+7. [Medium] Minimum Operations to Convert Number (State Space Branching Breadth-First Search)
+8. [Medium] Find Eventual Safe States (Kahn's Topological Sort Algorithm via In-Degree Queues)
+9. [Medium] Bounded Queue Producer-Consumer Architecture (Semaphore-Controlled Thread Processing)
+10. [Medium] Keys and Rooms (Iterative Graph Traversal using FIFO Verification Sets)
+
+### Hard
+
+1. [Hard] Word Ladder (Bi-Directional Breadth-First Search State Optimization)
+2. [Hard] Shortest Path to Get All Keys (Bitmask States Integrated into Multi-Source Grid BFS)
+3. [Hard] Shortest Path in a Grid with Obstacles Elimination (3D BFS Queue State Representation Space)
+4. [Hard] Minimum Moves to Move a Box to Its Target Location (Dual-Tiered Nested State BFS Simulation)
+5. [Hard] Sliding Puzzle (State Graph Serialization combined with Queue BFS A* Heuristics)
+6. [Hard] Jump Game IV (Multi-Value Index Sublist Hash Map Node Aggregation BFS)
+7. [Hard] Cut Off Trees for Golf Event (Hadlock's Routing Algorithm / Multi-Target Sorted Queue BFS)
+8. [Hard] Escape a Large Maze (Bounded-Growth Search Expansion Barrier Verification BFS)
+9. [Hard] Minimum Cost to Make at Least One Valid Path in a Grid (0-1 BFS Deque Queue Optimization)
+10. [Hard] Minimum Obstacle Removal to Reach Corner (0-1 BFS Dual-Ended Cost Traversal Processing)
+
+---
+
+## 14. Deque (Double-Ended Queues, Monotonic Windows, and Two-Way Linear Flows)
+
+### Easy
+
+1. [Easy] Defanging an IP Address (Double-Ended String Array Expansion Layout)
+2. [Easy] Backspace String Compare (Two-Way Boundary Pointer Matching Simulation)
+3. [Easy] Remove All Adjacent Duplicates In String (Two-Way Vector Iteration Tracking)
+4. [Easy] Design Front Middle Back Queue (Dual Deque Vector Alignment Tuning)
+5. [Easy] Implement Queue Using Array Iterators (Two-Way Offset Pointer Tracking)
+6. [Easy] Valid Palindrome (Two-Pointer Outer-to-Inner Deque Isolation Emulation)
+7. [Easy] Palindrome Linked List (Deque-Like Head/Tail Double-Ended Comparison Simulation)
+8. [Easy] Reverse String II (Segmented Chunk-Based Deque Inversions)
+9. [Easy] Number of Students Unable to Eat Lunch (Dual Pointer Index Matching vs. Deque Circular Rotation)
+10. [Easy] Check If Array Pairs Are Divisible by k (Remainder Array Deque Match Analysis)
+
+### Medium
+
+1. [Medium] Design Circular Deque (Dynamic Head-Tail Modulo Bounds Shift Tracking)
+2. [Medium] Max Consecutive Ones III (Variable Length Sliding Window Deque Tracking)
+3. [Medium] Product of the Last K Numbers (Prefix Product Array Deque Stream Optimizer)
+4. [Medium] Jump Game VI (Dynamic Programming Bounded Window Monotonic Deque Optimization)
+5. [Medium] Longest Substring Without Repeating Characters (Deque Window Entry-Exit Filtering)
+6. [Medium] Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit (Min-Max Dual Monotonic Deque Synchronization)
+7. [Medium] Continuous Subarrays (Absolute Difference Bounded Double-Ended Deque Tracking)
+8. [Medium] Maximum Number of Vowels in a Substring of Given Length (Fixed Window Deque Shifter)
+9. [Medium] Delimited String Substring Partition Elimination (Two-Way Window Parsing Shifts)
+10. [Medium] Design Hit Counter (Time-Stamped Buckets in a Deque Cyclic Sequence Buffer)
+
+### Hard
+
+1. [Hard] Sliding Window Maximum (Monotonic Deque Index Max Optimization)
+2. [Hard] Shortest Subarray with Sum at Least K (Monotonic Deque Prefix Sum Index Optimization)
+3. [Hard] Constrained Subarray Sum (Monotonic Deque Optimized Dynamic Programming Over Windows)
+4. [Hard] Maximum Score of a Good Subarray (Greedy Window Boundary Expansion Intersections via Monotonic Deque)
+5. [Hard] Max Value of Equation (Monotonic Deque Point Optimization ($y_i - x_i$ Optimization))
+6. [Hard] Create Maximum Number (Greedy Monotonic Double-Ended Stack Selection and Sub-list Merging)
+7. [Hard] Minimum Window Substring (Multi-Variable Hash Window Deque Pointer Alignment)
+8. [Hard] Subarrays with K Different Integers (Dual Sliding Window Deque Parity Optimization: AtMost(K) - AtMost(K-1))
+9. [Hard] Bounded Element Sequence Sum Variants (Segment-Tree Integrated Monotonic Deque Arrays)
+10. [Hard] Subarray With Elements Greater Than Varying Threshold (Monotonic Deque Segment Range Analysis)
+
+---
+
+## 15. Tree (Binary Trees, N-ary Trees, Recursive Traversals, and Path Properties)
+
+### Easy
+
+1. [Easy] Maximum Depth of Binary Tree (Recursive Depth-First Search Max Calculation)
+2. [Easy] Invert Binary Tree (Recursive Children Swap Mirror Mechanics)
+3. [Easy] Same Tree (Structural Identical Evaluation Recursive Check)
+4. [Easy] Symmetric Tree (Dual Node Left-Right Cross Structural Mirror Check)
+5. [Easy] Diameter of Binary Tree (Post-Order Path Height Convergence Track)
+6. [Easy] Balanced Binary Tree (Post-Order Bottom-Up Height Discrepancy Verification)
+7. [Easy] Path Sum (Root-to-Leaf Target Subtract Recursive Leaf Search)
+8. [Easy] Merge Two Binary Trees (Overlay Node Structural Summarization)
+9. [Easy] Subtree of Another Tree (Structural Identity Verification Hashed Subtree Traversal)
+10. [Easy] Binary Tree Inorder Traversal (Morris Traversal / Threaded Binary Tree Pointer Modification)
+
+### Medium
+
+1. [Medium] Binary Tree Level Order Traversal (FIFO Queue Breadth-First Segregation Grid)
+2. [Medium] Lowest Common Ancestor of a Binary Tree (Recursive Split Path Node Search)
+3. [Medium] Construct Binary Tree from Preorder and Inorder Traversal (Hash Map Dynamic Range Division)
+4. [Medium] Binary Tree Right Side View (Level-Order Tail Capture vs. Modified Right-First DFS)
+5. [Medium] Path Sum II (Backtracking Vector Node Track Accumulator)
+6. [Medium] Flatten Binary Tree to Linked List (Pre-Order Traversal In-place Right Pointer Threading)
+7. [Medium] Populating Next Right Pointers in Each Node (Level Boundary Traversal Splicing)
+8. [Medium] Binary Tree Zigzag Level Order Traversal (Alternating Double-Ended Queue Level Processing)
+9. [Medium] Sum Root to Leaf Numbers (Base-10 Prefix Accumulation Traversal Paths)
+10. [Medium] All Nodes Distance K in Binary Tree (Graph Mapping via Parent Address Injections + BFS)
+
+### Hard
+
+1. [Hard] Binary Tree Maximum Path Sum (Post-Order Dynamic Path Optimization Extrema Extraction)
+2. [Hard] Serialize and Deserialize Binary Tree (Pre-Order Token Character Stream Architecture)
+3. [Hard] Vertical Order Traversal of a Binary Tree (Coordinate $(X, Y)$ Heap Sort Hash Column Groups)
+4. [Hard] Binary Tree Cameras (Greedy Post-Order State Selection Tri-State Flags DP)
+5. [Hard] Recover a Tree From Preorder Traversal (Stack-Based String Character Dash Depth Reconstruction)
+6. [Hard] N-ary Tree Level Order Traversal Max-Width Bounds (Long Segment Indices Computations)
+7. [Hard] All Possible Full Binary Trees (Combinatorial Component Generation Dynamic Programming)
+8. [Hard] Path Sum III (Prefix Sum Hash Map Intercept Target Value Downward Tracks)
+9. [Hard] Tree Distances Sum / Sum of Distances in Tree (Rerooting Tree DP / Two-Pass Bottom-Up Top-Down Counts)
+10. [Hard] K-th Ancestor of a Tree Node (Binary Lifting / Doubling Ancestor Pointer Tables)
+
+---
+
+## 16. Binary Search Tree (BST Invariants, Rotations, and Range Queries)
+
+### Easy
+
+1. [Easy] Search in a Binary Search Tree (Recursive Value Partition Target Selection)
+2. [Easy] Range Sum of BST (BST Invariant Pruned Inorder Traversal Range Sums)
+3. [Easy] Minimum Distance Between BST Nodes (Inorder Value Continuous Diff Tracking)
+4. [Easy] Convert Sorted Array to Binary Search Tree (Midpoint Balance Anchor Splitting)
+5. [Easy] Two Sum IV - Input is a BST (Inorder Stream Generator Hash Map Intersection check)
+6. [Easy] Lowest Common Ancestor of a Binary Search Tree (Invariant Direction Selection Value Split Check)
+7. [Easy] Mode in Binary Search Tree (Inorder Continuous Value Frequency Runner Count)
+8. [Easy] Minimum Absolute Difference in BST (Sorted Continuities Check Optimization)
+9. [Easy] Find Mode in Binary Search Tree (O(1) Auxiliary Space Morris Traversal Pass)
+10. [Easy] Inorder Successor in BST (Single-Pass Bounded Target Shift Vector Tracker)
+
+### Medium
+
+1. [Medium] Validate Binary Search Tree (Min-Max Value Bound Propagation Checked Recursively)
+2. [Medium] Delete Node in a BST (Structural Re-link via Inorder Successor/Predecessor Extraction)
+3. [Medium] Insert into a Binary Search Tree (Iterative Terminal Invariant Boundary Leaf Attacher)
+4. [Medium] Kth Smallest Element in a BST (Iterative Stack Inorder Iterator Interrupt System)
+5. [Medium] Balance a Binary Search Tree (Inorder Vector Flattening + Balanced Invariant Rebuilding)
+6. [Medium] Unique Binary Search Trees (Catalan Number Mathematical Calculation / Array Matrix DP)
+7. [Medium] Unique Binary Search Trees II (Recursive Component Combination Subtree Construction)
+8. [Medium] Convert BST to Greater Tree (Reverse Inorder Accumulation Traversal State Track)
+9. [Medium] Trim a Binary Search Tree (Recursive Branch Pruning Modification Operations)
+10. [Medium] BST Iterator (Controlled Explicit Stack Inorder Simulation Engine ($O(1)$ Amortized Next))
+
+### Hard
+
+1. [Hard] Recover Binary Search Tree (Inorder Traversal Dual Node Pointer Swaps via Morris Traversal)
+2. [Hard] Largest BST in Binary Tree (Post-Order Structural Boundary Size Min-Max Vector Analysis)
+3. [Hard] Count Smaller Numbers After Self (BST Node Tree-Size Coordinate Compression Inversion Tracking)
+4. [Hard] Create Binary Search Tree From Ordered Sequences (Extended Balancer Logic with Dynamic Segment Trees)
+5. [Hard] Number of Ways to Reorder Array to Get Same BST (Combinatorial Pascal Triangle Tree Partition Splits)
+6. [Hard] Maximum Sum BST in Binary Tree (Subtree Structural Verification Matrix Values Check)
+7. [Hard] Bounded Variant BST Rotations Sequence (State Space Search over Tree Forms)
+8. [Hard] Preorder Traversal Serialization Checker (Strict Monotonic Stack Path BST Validations)
+9. [Hard] Count BST Substructures Matching Dynamic Metrics (Multi-Constraint Propagation Checks)
+10. [Hard] Split BST / Partition BST (Tree Splitting Invariants via Pivot Values Extraction)
+
+---
+
+## 17. Heap (Priority Queues, Stream Top-K, and Multi-Way Merging)
+
+### Easy
+
+1. [Easy] Kth Largest Element in a Stream (Min-Heap Bounded Size Eviction Engine)
+2. [Easy] Last Stone Weight (Max-Heap Simulated Reduction Loops)
+3. [Easy] Relative Ranks (Max-Heap Value-to-Index Score Remapping)
+4. [Easy] Minimum Amount of Time to Fill Cups (Greedy Multi-Way Decrement Heap)
+5. [Easy] Take Gifts From the Richest Pile (Max-Heap Element Transformation Processing)
+6. [Easy] Make Array Zero by Subtracting Equal Amounts (Min-Heap Deduplication Tracking)
+7. [Easy] Minimum Cost to Connect Sticks (Min-Heap Greedy Two-Way Consolidation)
+8. [Easy] Delete Greatest Value in Each Row (Row-Wise Sorting Vector Heaps Validation)
+9. [Easy] The K Weakest Rows in a Matrix (Min-Heap Max-Bounded Custom Group Comparators)
+10. [Easy] Construct Target Array With Multiple Sums (Reverse Max-Heap Reduction Tracking)
+
+### Medium
+
+1. [Medium] Kth Largest Element in an Array (Max-Heap Eviction vs. Min-Heap Window Buffer)
+2. [Medium] Top K Frequent Elements (Hash Map Frequency Array Combined with Min-Heap Strategy)
+3. [Medium] Find K Closest Elements (Max-Heap Custom Distance Comparator Tuning)
+4. [Medium] K Closest Points to Origin (Euclidean Distance Struct Hashing with Heap Filtering)
+5. [Medium] Merge k Sorted Lists (Multi-Way Vector Pointer Alignment via Min-Heap Extraction)
+6. [Medium] Single Threaded CPU (Task Priority Multi-Key Sorting Min-Heap Stream Tracker)
+7. [Medium] Furthest Building You Can Reach (Greedy Heap Tracked Brick-Ladder Substitution Allocation)
+8. [Medium] Reorganize String (Max-Heap Frequency Interleaving with Idle Element Holding State)
+9. [Medium] Car Pooling (Coordinate Collision Timestamps via Min-Heap Chronological Sort)
+10. [Medium] Path With Maximum Minimum Value (Grid Modified Dijkstra Variant using Max-Heap Extraction)
+
+### Hard
+
+1. [Hard] Find Median from Data Stream (Dual Heap Balancing Act: Max-Heap Left, Min-Heap Right)
+2. [Hard] The Skyline Problem (Max-Heap Critical Height Tracking over Coordinate Event Eras)
+3. [Hard] Merge k Sorted Arrays (Indexed Node Coordinates Heap Tracking Structure)
+4. [Hard] Smallest Range Covering Elements from K Lists (Min-Heap Node Extrema Window Expansion)
+5. [Hard] Rearrange String k Distance Apart (Max-Heap Level Character Frequency Queue Cooling Systems)
+6. [Hard] Course Schedule III (Greedy Sorting with Max-Heap Duration Eviction Regret Processing)
+7. [Hard] Swim in Rising Water (Min-Heap Cost Connectivity Paths Dijkstra Variant)
+8. [Hard] IP/Task Processing Schedule with Windows (Interval Tree Augmented Priority Allocation Maps)
+9. [Hard] Maximum Performance of a Team (Greedy Speed Arrays Hashed with Efficiency-Bounded Min-Heaps)
+10. [Hard] Minimum Cost to Hire K Workers (Greedy Ratio Sorting combined with Max-Heap Capacity Eviction)
+
+---
+
+## 18. Graph (Traversals, Topological Sorts, Shortest Paths, and Connectivity)
+
+### Easy
+
+1. [Easy] Find Center of Star Graph (Degree Identity Matching Vector Tracking)
+2. [Easy] Find if Path Exists in Graph (Iterative BFS Node Traversal Membership Sets)
+3. [Easy] Island Perimeter (Grid-Graph Coordinate Face Intersection Reductions)
+4. [Easy] Flood Fill (Recursive Core Component Extraction Color Mutation Traversal)
+5. [Easy] Employee Importance (Adjacency List Node Attribute Map Traversal Tracking)
+6. [Easy] Minimum Number of Vertices to Reach All Nodes (Zero In-Degree Vertex Node Identification)
+7. [Easy] Direct Graph Self-Loop Boundary Verification (Basic Adjacency Edge Identifiers Check)
+8. [Easy] Unhappy Friends (Pair Assignment Proximity Map Matrix Checks)
+9. [Easy] Maximal Network Rank (Vertex Pair Degree Cross Sum Intersect Reductions)
+10. [Easy] Matrix Component Transpose Identification (Undirected Structural Node Connectivity Conversions)
+
+### Medium
+
+1. [Medium] Clone Graph (Deep Copy Node Mapping via Hash Address Recursion)
+2. [Medium] Course Schedule (Directed Graph Cycle Detection using DFS Color-State Vectors)
+3. [Medium] Course Schedule II (Kahn’s Topological Sort Algorithm via In-Degree Vectors Queue)
+4. [Medium] Number of Islands (Connected Components Matrix Grid Traversal Mapping)
+5. [Medium] Rotting Oranges (Multi-Source Breadth-First Search Queue Traversal Engine)
+6. [Medium] Pacific Atlantic Water Flow (Simultaneous Reverse Boundary Traversal Intersections)
+7. [Medium] Is Graph Bipartite? (Graph Coloring DFS/BFS Odd Cycle Boundary Detections)
+8. [Medium] Network Delay Time (Dijkstra's Shortest Path Algorithm using Min-Heap Edge Relocations)
+9. [Medium] Number of Provinces (Disjoint Set Union (DSU) Path Compression Element Verification)
+10. [Medium] Reconstruct Itinerary (Eulerian Path Hierarchical Sorting / Hierholzer’s Algorithm)
+
+### Hard
+
+1. [Hard] Alien Dictionary (Topological Sort over Lexicographical Character Order Constraints Graphs)
+2. [Hard] Word Ladder II (BFS Directed Layer Graph Generation + DFS Path Backtracking)
+3. [Hard] Longest Cycle in a Graph (DFS Timestamp Array Sequence Traversal Analysis)
+4. [Hard] Critical Connections in a Network (Tarjan’s / Bridges Search Algorithm using Low-Link Node Tracking)
+5. [Hard] Shortest Path to Get All Keys (State Space Vector Bitmask Graph Expansion)
+6. [Hard] Remove Max Number of Edges to Keep Graph Fully Traversable (Dual DSU Component Tracks)
+7. [Hard] Optimize Water Distribution in a Village (Prim's / Kruskal's MST using Virtual Source Insertion)
+8. [Hard] All Pairs Shortest Path Sum Dynamics (Floyd-Warshall Cost Vector Transitive Closure Calculations)
+9. [Hard] Parallel Courses III (Topological Sort combined with Dynamic Critical Path Length Math)
+10. [Hard] Valid Arrangement of Pairs (Eulerian Path Graph Structuring with Hierholzer Node Inversion Traversals)
+
+---
+
+## 19. Greedy (Local Optimization Decisions, Intervals, and Regret Strategies)
+
+### Easy
+
+1. [Easy] Assign Cookies (Two-Pointer Greedy Satiation Allocation Optimization)
+2. [Easy] Lemonade Change (Greedy Vault Change Denomination Tracking ($5 > $10 Bill Allocation))
+3. [Easy] Can Place Flowers (Adjacent Zero Boundary Verification Element Injections)
+4. [Easy] Maximum Units on a Truck (Greedy Fractional Knapsack Variant Element Density Sorting)
+5. [Easy] Minimum Sum of Four Digit Number After Splitting Digits (Sorted Digit Interleaving)
+6. [Easy] Split a String in Balanced Strings (Balanced Element Frequency Counter Signatures)
+7. [Easy] Array Partition (Sorted Sequence Element Pair Minimization Strategy)
+8. [Easy] Minimum Operations to Make the Array Increasing (Greedy Value Boundary Increments)
+9. [Easy] Buy and Sell Stock II (Greedy Continuous Local Inflection Up-Slope Profit Scraping)
+10. [Easy] Longest Palindrome (Frequency-Based Character Complement Matching Strategy)
+
+### Medium
+
+1. [Medium] Jump Game (Greedy Maximum Reachable Index Boundary Trackers)
+2. [Medium] Jump Game II (Greedy Interval Window Forward Inspection Strategies)
+3. [Medium] Gas Station (Single-Pass Fuel Variance Accumulator Balance Traversal)
+4. [Medium] Non-overlapping Intervals (Greedy End-Time Activity Scheduling Interval Pruning)
+5. [Medium] Merge Intervals (Sorting-Based Overlapping Horizon Boundary Consolidations)
+6. [Medium] Partition Labels (Last-Occurrence Hash Table Dynamic Window Segment Anchor Tracking)
+7. [Medium] Task Scheduler (Greedy Frequency Interleaving Slots Pattern Verification)
+8. [Medium] Hand of Straights (Sorted Map Multi-Value Continuity Multi-Pack Greedy Sweeps)
+9. [Medium] Minimum Number of Arrows to Burst Balloons (Interval Sorting / Overlap Range Traversal Anchors)
+10. [Medium] Queue Reconstruction by Height (Sorted Sequence Position Vector Element Insertion Invariants)
+
+### Hard
+
+1. [Hard] Candy (Dual-Pass Directional Metric Distribution Balances Optimization)
+2. [Hard] Course Schedule III (Greedy Sorting combined with Max-Heap Duration Regret Eviction)
+3. [Hard] Create Maximum Number (Monotonic Vector Sub-Sequence Truncations and Interleaved Array Splicing)
+4. [Hard] Patching Array (Greedy Missing Value Range Reach Upper-Bound Extension Logic)
+5. [Hard] Minimum Initial Energy to Complete Tasks (Variance Deficit Sorting Strategy Transitions)
+6. [Hard] Earliest Possible Day of Full Bloom (Greedy Sorting by Independent Growth Cycles Optimization)
+7. [Hard] Stamping The Sequence (Reverse Time Stamp Pattern Overwrite Reductions Tracking)
+8. [Hard] Minimum Moves to Reach Target with Restraints (Coordinate Bound Value Step Optimization)
+9. [Hard] Maximum Score of a Good Subarray (Greedy Multi-Directional Two-Pointer Window Expansion Bounds)
+10. [Hard] Bounded Schedule Work Allocation Metrics (Greedy Assignment Strategies with Multi-Key Matrix Adjustments)
+
+---
+
+## 20. Backtracking (State Space Search, Combinatorics, and Pruning Tactics)
+
+### Easy
+
+1. [Easy] Binary Tree Paths (Root-to-Leaf Path Accumulator Vector Backtracks)
+2. [Easy] All Paths From Source to Target (Directed Acyclic Graph Path DFS Tracking Vector Allocations)
+3. [Easy] Sum of All Subset XOR Totals (Combinatorial Bitwise Path State Branching)
+4. [Easy] Find All Lonely Nodes (Recursive Invariant Child Path Mismatch Extractions)
+5. [Easy] Check If Path Exists Matrix (Basic Directional Matrix Grid Route Verification Vectors)
+6. [Easy] Special Array Combinations (Multi-Index Match Branch State Tracing)
+7. [Easy] Generate Strict Increasing Sequences (Index Boundary Branch Sequence Checks)
+8. [Easy] Leaf-Similar Trees (Leaf Sequence Value Extraction Array Verifications)
+9. [Easy] Maximum Depth N-Ary Tree (Branch Recursive Level Track Extractions)
+10. [Easy] Bounded Tree Node Value Match Tracks (Dynamic Traversal Branch Verifications)
+
+### Medium
+
+1. [Medium] Subsets (Bitmask Combinatorial Engine vs. Choice-Based DFS Backtracking Branches)
+2. [Medium] Subsets II (Sorted Element Sequence Frequency Deduplication Backtracking Pruning)
+3. [Medium] Permutations (In-place Swap Index Placement Backtracking Sequences)
+4. [Medium] Permutations II (Frequency Hashing Map vs. Sorted Inplace Swap Vector Deduplications)
+5. [Medium] Combination Sum (Unbounded Multi-Choice Target Remainder Branch Pruning)
+6. [Medium] Combination Sum II (Sorted Sequence Element Identity Frequency Mismatch Pruning Loops)
+7. [Medium] Letter Combinations of a Phone Number (String Cartesian Multi-Branch Dictionary Iterators)
+8. [Medium] Generate Parentheses (Catalan Balancer Counting Dynamic Recursive Branch Verification)
+9. [Medium] Word Search (Matrix Grid Adjacency DFS In-place Character Masking Paths)
+10. [Medium] Restore IP Addresses (Four-Tiered String Partition Bounds Validation Backtracks)
+
+### Hard
+
+1. [Hard] N-Queens (Grid Conflict Vector Matrices Fast Row-Diagonal Interference Checking)
+2. [Hard] Sudoku Solver (Matrix Box-Row-Col Multi-Constraint Backtracking State Space Solvers)
+3. [Hard] Word Search II (Trie-Prefix Accelerated Matrix Adjacency Multi-String Search Engines)
+4. [Hard] Expression Add Operators (Dynamic Operator Precedence Evaluation Value Track Variables)
+5. [Hard] Remove Invalid Parentheses (Minimal-Cut Validation Layer Multi-Choice DFS Pruning Filters)
+6. [Hard] Palindrome Partitioning (String DFS Substring Matching Matrix Validation Chains)
+7. [Hard] Unique Paths III (Hamiltonian Path Full Grid Coverage Matrix Traversal Tracking)
+8. [Hard] Matchsticks to Square (K-Subset Equal Sum Buckets Partitioning with Sorted Pruning)
+9. [Hard] Partition to K Equal Sum Subsets (Multi-Bucket Multi-Index State Space Pruning Optimization)
+10. [Hard] Verbal Arithmetic Puzzles (Cryptarithmetic Puzzle Character Mapping Constraint Satisfaction Backtracking)
+
+---
+
+## 21. Dynamic Programming (State Transition, Memoization, and Multi-Dimensional Caching)
+
+### Easy
+
+1. [Easy] Climbing Stairs (Fibonacci State Transition Matrix Optimization)
+2. [Easy] Min Cost Climbing Stairs (Single-Dimensional Running State Cost Minimization)
+3. [Easy] Is Subsequence (Two-Pointer Sequence Verification vs. Single-Row LIS Subcase)
+4. [Easy] Divisor Game (Mathematical Induction Game Theory vs. Base Caching States)
+5. [Easy] Counting Bits (Pattern-Based Bit-Shifting Offset State Transitions)
+6. [Easy] Maximum Subarray (Kadane's Algorithm Segment Accumulation DP)
+7. [Easy] Best Time to Buy and Sell Stock (Single-Pass Min-Boundary Prefix State Tracking)
+8. [Easy] Pascal's Triangle (Row-by-Row Combinatorial Boundary Summation Generation)
+9. [Easy] Get Maximum in Generated Array (Linear Simulation State Dependency Caching)
+10. [Easy] Unique Paths (2D Combinatorial Coordinate Grid Accumulation Matrix)
+
+### Medium
+
+1. [Medium] Longest Common Subsequence (2D String Grid Character Matrix Alignment)
+2. [Medium] Longest Increasing Subsequence (Patience Sorting Optimization vs. $O(N^2)$ Element Tracking)
+3. [Medium] Coin Change (Unbounded Knapsack Min-Value Choice Transition Systems)
+4. [Medium] Partition Equal Subset Sum (0-1 Knapsack Target Remainder Boolean Caching Space)
+5. [Medium] House Robber (Alternating Index Maximum Value Optimization State Engine)
+6. [Medium] Word Break (String Segment Split Interval Parsing Matchers)
+7. [Medium] Edit Distance (2D Insertion-Deletion-Replacement Alignment String Matrices)
+8. [Medium] Maximal Square (2D Coordinate Intersect Min-Boundary Area Expansion Matrix)
+9. [Medium] Target Sum (Positive-Negative Zero-Offset Array Partition Sum Matrices)
+10. [Medium] Decoding Ways (String Character Double-Digit Code Translation Sequences)
+
+### Hard
+
+1. [Hard] Burst Balloons (Matrix Chain Multiplication Range-Interval Splitting DP)
+2. [Hard] Regular Expression Matching (Multi-Token Wildcard Transition Matrices with Backtrack Caching)
+3. [Hard] Cherry Pickup (Simultaneous Two-Path 3D Matrix Grid Spatial Coordination DP)
+4. [Hard] Distinct Subsequences (Combinatorial Substring Target Matching Dynamic Sequences)
+5. [Hard] Dungeon Game (Reverse Target Boundary Health Traversal Calculations Matrix)
+6. [Hard] Super Egg Drop (Minimax Binary Search Optimizations paired with State Step Count DP)
+7. [Hard] Palindrome Partitioning II (Min-Cut Optimization via 2D Palindromic Grid Caching Strings)
+8. [Hard] Numbers At Most N Given Digit Set (Digit DP Lexicographical Bound Counting Engines)
+9. [Hard] Best Time to Buy and Sell Stock IV (Multi-State Transaction Bounded Fee Matrices)
+10. [Hard] Profile Layout Bitmask / Broken Profile DP (Bitmask State-Space Column-Wise Grid Cover Operations)
+
+---
+
+## 22. Trie (Prefix Routing Trees, Character Autocompletes, and Bitwise Bitmatchers)
+
+### Easy
+
+1. [Easy] Implement Trie (Prefix Tree Basic Node Struct Construction with End-State Flag)
+2. [Easy] Longest Common Prefix (Vertical Tree Character Path Extraction)
+3. [Easy] Search Suggestions System (Sorted Array Matrix Lookups vs. Standard Trie Iteration)
+4. [Easy] Key-Value Store with Prefix Lookups (Basic Trie Node Value Vector Insertion Tracking)
+5. [Easy] Shortest Unique Prefix Locator (Trie Path Counter Vector Frequency Inspections)
+6. [Easy] Count Pairs With XOR in a Bounded Range (Basic Bitwise Trie Match Iterators)
+7. [Easy] Unique Rows in Boolean Matrix (Binary Character Stream Struct Insertions)
+8. [Easy] Prefix Match String Tokenizer (Word Split Trie Boundary Validations)
+9. [Easy] Index Mapping Directory Systems (Trie Nested Character Folder Conversions)
+10. [Easy] Auto-Correct Pattern Verification (Trie Node Character Miss Discrepancy Scans)
+
+### Medium
+
+1. [Medium] Design Add and Search Words Data Structure (Trie Multi-Branch Wildcard Period Dot BFS Paths)
+2. [Medium] Maximum XOR of Two Numbers in an Array (Bitwise Trie Bit-Matching Inverse Value Traversal Paths)
+3. [Medium] Replace Words (Prefix Stem Matching Vocabulary Translation Optimization)
+4. [Medium] Map Sum Pairs (Trie Node Value Accumulation Prefix Key Sum Dynamic Trackers)
+5. [Medium] Camelcase Matching (Trie Character Pattern Verification with Upper-Case Discrepancies)
+6. [Medium] Extra Characters in a String (Trie-Accelerated Segment String Parsing with Dynamic Programming)
+7. [Medium] Remove Sub-Folders from the Filesystem (Trie Paths Directory Structural Segment Pruning)
+8. [Medium] Top K Frequent Words (Trie Frequency Caching paired with Min-Heap Custom Comparison)
+9. [Medium] Longest Word in Dictionary (Trie Character Continuity Dependency Expansion Paths)
+10. [Medium] Stream of Characters (Suffix Trie Reverse Queue Window Character Stream Buffer)
+
+### Hard
+
+1. [Hard] Word Search II (Trie-Prefix Accelerated Grid Matrix Adjacency Backtracking Search Engines)
+2. [Hard] Multi-String Suffix Automated Matching / Aho-Corasick Foundation (Trie Link Failure Multi-Pattern Routing Nodes)
+3. [Hard] Maximum XOR With Element From Array (Trie Bitwise Bit-Matcher with Sorting Constraint Lookups)
+4. [Hard] Palindrome Pairs (Trie Character Reverse Traversal paired with Substring Logic Check Chains)
+5. [Hard] Encrypt and Decrypt Strings (Trie Frequencies Vector Mapping Backtrack Verification Frameworks)
+6. [Hard] Prefix and Suffix Search (Dual-Trie Interleaved Wrapping Struct Combination Keys ($Suffix + \# + Prefix$))
+7. [Hard] Lexicographical Numbers (Trie DFS Traversal Paths Emulation via Math Numerical Steps)
+8. [Hard] Word Squares (Trie-Accelerated Prefix Grid Placement Matrix Generation)
+9. [Hard] Maximum XOR Score Subarray Queries (Segment Tree Augmented Bitwise Trie Tracking Matrix)
+10. [Hard] Index-Bounded Spell Checker Engine (Multi-Constraint Edit Distance Matrix Trie Paths)
+
+---
+
+## 23. Segment Tree (Range Queries, Point Updates, and Lazy Propagation Trees)
+
+### Easy
+
+1. [Easy] Range Sum Query - Immutable (Prefix Sum Basic Lookups vs. Static Segment Array Building)
+2. [Easy] Range Minimum Query Foundation (Static Tree Divide and Conquer Range Slices Construction)
+3. [Easy] Check If String Is Transformable (Index Boundary Array Range Position Tracking Queries)
+4. [Easy] Maximum Element Range Checks (Static Tree Node Splitting Boundary Queries)
+5. [Easy] Index Placement Continuity Tracker (Static Segment Array Index Point Matching)
+6. [Easy] Bitwise OR Interval Queries (Static Sub-segment Element Bitmask Combinations)
+7. [Easy] Range Product Computations (Zero-Handling Value Multiplier Intersect Intervals)
+8. [Easy] Count Element Discrepancy inside Subranges (Frequency Maps across Static Ranges)
+9. [Easy] Range GCD Calculation Foundation (Static Coordinate Slice Greatest Common Divisor Intersects)
+10. [Easy] Sub-segment Parity Checkers (Odd-Even Element Integer Segment Boundary Maps)
+
+### Medium
+
+1. [Medium] Range Sum Query - Mutable (Point Update Range Sum Binary Segment Tree Architecture)
+2. [Medium] Queue Reconstruction by Height (Segment Tree Coordinate Compressed Space Node Insertion Counts)
+3. [Medium] Online Majority Element In Subarray (Segment Tree Range Nodes combined with Boyer-Moore Voting Vectors)
+4. [Medium] Range Minimum Query with Point Updates (Interval Node Comparison Splitting Matrix Tracking)
+5. [Medium] Longest Repeating Substring Queries (Segment Tree Character Hash Check Intervals)
+6. [Medium] Subarray Sum Variance Queries (Point Update Segment Value Change Multiplier Tracking Trees)
+7. [Medium] Bounded Segment Range Bitmask Updates (Bitwise State Segment Changes Tree Nodes)
+8. [Medium] Maximum Sum Bounded Range Inversions (Segment Tree Cross Merge Array Boundary Splits)
+9. [Medium] Count Inversions in an Array (Coordinate Compression Dynamic Segment Tree Insertion Updates)
+10. [Medium] Xor Queries over Mutable Arrays (Point Modification Segment Tree Bitwise Node Tracks)
+
+### Hard
+
+1. [Hard] Range Module / Range Update - Mutable (Segment Tree Segment Allocation Interval Splitting with Lazy Propagation)
+2. [Hard] The Skyline Problem (Coordinate Compressed Dynamic Range Allocation Segment Trees)
+3. [Hard] Count of Smaller Numbers After Self (Coordinate Compressed Frequency Update Segment Tree Logic)
+4. [Hard] Count of Range Sums (Coordinate Compressed Segment Range Intersect Frequency Updates)
+5. [Hard] Falling Squares (Segment Tree Interval Coordinate Max Height Map Lazy Updates)
+6. [Hard] Rectangle Area II (Coordinate Line Sweep Algorithm Combined with Segment Tree Active Length Maps)
+7. [Hard] Subarray With Elements Greater Than Varying Threshold (Segment Tree Range Node Extrema Computations)
+8. [Hard] Dynamic Multi-Element Bounded Window Inversions (Segment Tree Indexed Dynamic Multi-Key Tracks)
+9. [Hard] Number of Longest Increasing Subsequences (Dynamic Programming Integrated with Segment Tree Range Max Optimization)
+10. [Hard] Block Segment Multi-Pattern Sequence Operations (Complex Multi-State Range Array Lazy Propagation Networks)
+
+---
+
+## 24. Disjoint Set (Union-Find Networks, Path Compression, and Dynamic Connectivity)
+
+### Easy
+
+1. [Easy] Find if Path Exists in Graph (Basic Disjoint Set Union (DSU) Connect-Find Nodes Check)
+2. [Easy] Number of Provinces (Connected Components DSU Count Matrix Verification)
+3. [Easy] Graph Valid Tree (DSU Cycle Detection checking Edge Count Equivalencies ($V - 1$))
+4. [Easy] Redundant Connection (Undirected Graph First Cycle Causing Edge Location Tracking via DSU)
+5. [Easy] Friend Circles (Basic Disjoint Matrix Element Representative Components Matching)
+6. [Easy] Find Center of Star Graph (DSU Node Parent Convergence Check)
+7. [Easy] Check Connected Grid Boundaries (Basic Matrix Adjacency DSU Coordinate Merging)
+8. [Easy] Element Class Parity Identification (Value Representative Identity Groups Tracking)
+9. [Easy] Merge Account Directory Basics (String Identity Hash Node Connection DSU Matrix)
+10. [Easy] Direct Component Path Count Frameworks (Connected Segment Linear Map Verification Arrays)
+
+### Medium
+
+1. [Medium] Number of Islands (Coordinate Matrix DSU Merging using 4-Directional Linearized Indexing)
+2. [Medium] Accounts Merge (Email String Mapping Dictionary and DSU Set Intersection Extraction)
+3. [Medium] Redundant Connection II (Directed Graph DSU Cycle Detection handling Double-Parent Node Discrepancies)
+4. [Medium] Satisfiability of Equality Equations (Dual-Pass Variable Graph Mapping DSU Equality vs. Inequality Segregations)
+5. [Medium] Regions Cut By Slashes (Grid-Cell Matrix Quad-Partition Splicing via DSU Component Maps)
+6. [Medium] Number of Operations to Make Network Connected (DSU Redundant Cable Extractions vs. Isolated Components Counts)
+7. [Medium] Smallest String With Swaps (DSU Connected Index Character Component Collection Sorting Systems)
+8. [Medium] Minimizing Graph Component Value Intersects (DSU Rank Balance Values Calculation Engine)
+9. [Medium] Path With Minimum Effort (Matrix Grid Edge Sorting Matrix Combined with DSU Threshold Connected Components)
+10. [Medium] Synonymous Sentences (DSU String Equivalence Set Groups combined with Combinatorial Sentence Backtracking)
+
+### Hard
+
+1. [Hard] Remove Max Number of Edges to Keep Graph Fully Traversable (Dual DSU Component Alignment tracks: Alice vs. Bob)
+2. [Hard] Making A Large Island (Grid Matrix Multi-Island Component Size Maps Integrated with DSU Grid Searches)
+3. [Hard] Optimize Water Distribution in a Village (Kruskal's MST Dynamic DSU with Virtual Node Multi-Connections)
+4. [Hard] Bricks Falling When Hit (Reverse Time Processing Grid-Component Break Traversal tracking via DSU)
+5. [Hard] Swim in Rising Water (Time-Sorted Element Priority Matrix Merging via DSU Grid Connectivity checks)
+6. [Hard] Checked Graph Multi-Attribute Bounded Components (DSU Path Compression Rank Optimization via Vector Arrays)
+7. [Hard] Checking Existence of Edge Length Limited Paths (Offline Query Edge Weight Sorting Processing via Dynamic DSU)
+8. [Hard] Longest Consecutive Sequence (Dynamic Online Stream Processing via Coordinate Hashed DSU Networks)
+9. [Hard] Dynamic Connectivity in a Graph Matrix (Offline Edge Timeline Vector Processing via DSU Rollback Mechanisms)
+10. [Hard] Maximum Segment Sum After Deletions (Reverse Order Dynamic Array Element Restoration Tracking via DSU)
+
+---
