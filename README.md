@@ -159,6 +159,7 @@ cmake ..
 
 # Compile the entire project
 cmake --build .
+```
 
 ### 2. Execute an Individual Problem
 
@@ -173,7 +174,6 @@ Once compiled, you can execute individual problem files directly from your termi
 * **Windows:**
 ```bash
 .\src\01_introduction\01_two_sum.exe
-
 ```
 
 ## 📝 How to Add a New Problem
