@@ -23,4 +23,5 @@ add_subdirectory(src/03-bit-manipulation)
 add_subdirectory(src/04-recursion)
 add_subdirectory(src/05-arrays)
 add_subdirectory(src/06-searching)
+add_subdirectory(src/07-sorting)
 # Add other categories as you create them
