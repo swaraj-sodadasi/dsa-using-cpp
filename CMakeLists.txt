@@ -25,3 +25,16 @@ add_subdirectory(src/05-arrays)
 add_subdirectory(src/06-searching)
 add_subdirectory(src/07-sorting)
 # Add other categories as you create them
+
+# For documentation
+find_package(Doxygen)
+if(DOXYGEN_FOUND)
+    # This creates a 'doc_doxygen' target
+    doxygen_add_docs(
+        doc_doxygen
+        ${CMAKE_CURRENT_SOURCE_DIR}/src
+        ALL
+        WORKING_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR}
+        COMMENT "Generating API documentation with Doxygen"
+    )
+endif()
