@@ -21,4 +21,6 @@ add_subdirectory(src/01-introduction)
 add_subdirectory(src/02-mathematics)
 add_subdirectory(src/03-bit-manipulation)
 add_subdirectory(src/04-recursion)
+add_subdirectory(src/05-arrays)
+add_subdirectory(src/06-searching)
 # Add other categories as you create them
