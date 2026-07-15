@@ -20,4 +20,5 @@ include_directories(include)
 add_subdirectory(src/01-introduction)
 add_subdirectory(src/02-mathematics)
 add_subdirectory(src/03-bit-manipulation)
+add_subdirectory(src/04-recursion)
 # Add other categories as you create them
