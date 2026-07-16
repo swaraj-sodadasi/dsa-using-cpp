@@ -29,20 +29,26 @@ add_subdirectory(src/09-hashing)
 add_subdirectory(src/10-strings)
 # Add other categories as you create them
 
-# For documentation
+# ==============================================================================
+# REROUTING OUTPUT EXECUTABLES TO A CENTRAL /documentation-bin DIRECTORY
+# ==============================================================================
+# Wipes out mirror directory routing behavior and places every single compiled 
+# executable target cleanly inside the 'build/bin' directory.
+set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/documentation-bin)
 
-#[[
+# ==============================================================================
+# INTEGRATING DOXYGEN AUTOMATION
+# ==============================================================================
+find_package(Doxygen)
 
-    find_package(Doxygen)
 if(DOXYGEN_FOUND)
-    # This creates a 'doc_doxygen' target
-    doxygen_add_docs(
-        doc_doxygen
-        ${CMAKE_CURRENT_SOURCE_DIR}/src
-        ALL
+    # Appends a custom target named 'docs_gen' into CMake
+    add_custom_target(docs_gen
+        COMMAND ${DOXYGEN_EXECUTABLE} ${CMAKE_CURRENT_SOURCE_DIR}/docs/Doxyfile
         WORKING_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR}
-        COMMENT "Generating API documentation with Doxygen"
+        COMMENT "Generating project documentation with Doxygen"
+        VERBATIM
     )
+else()
+    message(STATUS "Doxygen engine not found. Documentation targets will not be built.")
 endif()
-
-]]
