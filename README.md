@@ -176,7 +176,7 @@ Once compiled, you can execute individual problem files directly from your termi
 .\src\01_introduction\01_two_sum.exe
 ```
 
-## 3. 📝 How to Add a New Problem
+### 3. 📝 How to Add a New Problem
 
 1. Drop your new `.cpp` problem file inside its corresponding category folder under `src/`.
 2. Open the `CMakeLists.txt` file inside that specific category folder.
