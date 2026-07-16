@@ -1,6 +1,5 @@
-
 add_executable(three-sum three-sum.cpp)
-add_executable(subarray-sum-equals-k subarray-sum-equals-k.cpp)
+add_executable(subarray-sum-equals-k-1 subarray-sum-equals-k-1.cpp)
 add_executable(next-permutation next-permutation.cpp)
 add_executable(product-of-array-except-self product-of-array-except-self.cpp)
 add_executable(spiral-matrix spiral-matrix.cpp)
