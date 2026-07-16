@@ -24,10 +24,16 @@ add_subdirectory(src/04-recursion)
 add_subdirectory(src/05-arrays)
 add_subdirectory(src/06-searching)
 add_subdirectory(src/07-sorting)
+add_subdirectory(src/08-matrix)
+add_subdirectory(src/09-hashing)
+add_subdirectory(src/10-strings)
 # Add other categories as you create them
 
 # For documentation
-find_package(Doxygen)
+
+#[[
+
+    find_package(Doxygen)
 if(DOXYGEN_FOUND)
     # This creates a 'doc_doxygen' target
     doxygen_add_docs(
@@ -38,3 +44,5 @@ if(DOXYGEN_FOUND)
         COMMENT "Generating API documentation with Doxygen"
     )
 endif()
+
+]]
