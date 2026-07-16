@@ -176,7 +176,7 @@ Once compiled, you can execute individual problem files directly from your termi
 .\src\01_introduction\01_two_sum.exe
 ```
 
-## 📝 How to Add a New Problem
+## 3. 📝 How to Add a New Problem
 
 1. Drop your new `.cpp` problem file inside its corresponding category folder under `src/`.
 2. Open the `CMakeLists.txt` file inside that specific category folder.
@@ -189,6 +189,6 @@ add_executable(problem_name problem_name.cpp)
 
 <!-- Automated CI/CD & Hosting Badges -->
 
-> 🛠️ **Project Resources:**
+### 4. 🛠️ Project Resources:
 > * Read the interactive code layouts: **[Live Doxygen Documentation Site](https://swaraj-sodadasi.github.io/dsa-using-cpp/)**
-> * Monitor the cloud deployment status: **[GitHub Actions Workflow](https://github.com/swaraj-sodadasi/dsa-using-cpp/blob/aabab1f782c895ca6c63b44a3fe2395dfb60d884/.github/workflows/deploy-docs.yml)**
+> * Monitor the cloud deployment status: **[GitHub Actions Workflow](https://github.com/swaraj-sodadasi/dsa-using-cpp/actions/workflows/deploy-docs.yml)**
