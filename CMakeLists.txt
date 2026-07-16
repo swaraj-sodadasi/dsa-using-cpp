@@ -27,6 +27,8 @@ add_subdirectory(src/07-sorting)
 add_subdirectory(src/08-matrix)
 add_subdirectory(src/09-hashing)
 add_subdirectory(src/10-strings)
+add_subdirectory(src/11-linkedlist)
+add_subdirectory(src/12-stack)
 # Add other categories as you create them
 
 # ==============================================================================
