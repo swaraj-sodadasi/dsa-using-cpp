@@ -186,3 +186,9 @@ add_executable(problem_name problem_name.cpp)
 
 ```
 4. Re-run `cmake --build .` inside your `build/` directory to compile it instantly.
+
+<!-- Automated CI/CD & Hosting Badges -->
+
+> 🛠️ **Project Resources:**
+> * Read the interactive code layouts: **[Live Doxygen Documentation Site](https://swaraj-sodadasi.github.io/dsa-using-cpp/)**
+> * Monitor the cloud deployment status: **[GitHub Actions Workflow](https://github.com/swaraj-sodadasi/dsa-using-cpp/blob/aabab1f782c895ca6c63b44a3fe2395dfb60d884/.github/workflows/deploy-docs.yml)**
