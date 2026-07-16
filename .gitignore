@@ -5,6 +5,8 @@
 # compilation files are stored.
 [Bb]uild/
 [Bb]uild-*/
+docs/html
+docs/latex
 
 # Ignore direct binary output expansions if generated outside the build folder
 *.exe
