@@ -29,6 +29,7 @@ add_subdirectory(src/09-hashing)
 add_subdirectory(src/10-strings)
 add_subdirectory(src/11-linkedlist)
 add_subdirectory(src/12-stack)
+add_subdirectory(src/13-queue)
 # Add other categories as you create them
 
 # ==============================================================================
