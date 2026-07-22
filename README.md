@@ -6,7 +6,7 @@ Welcome to my professional Data Structures and Algorithms (DSA) practice workspa
 
 ## 📂 Repository Structure
 
-The project is split into 24 core categories. Each category contains 30 distinct, high-quality problems divided by difficulty (Easy, Medium, Hard).
+The project is split into 24 core categories. Each category contains 30 distinct, high-quality problems divided by difficulty levels (Easy, Medium, Hard) with each and every folder and file is configured with CMake.
 
 ```text
 dsa-cpp-practice/
@@ -18,133 +18,60 @@ dsa-cpp-practice/
 └── src/
     ├── 01-introduction/
     │   ├── CMakeLists.txt # Group build script
-    │   ├── easy
-    │   ├── medium
-    │   ├── hard
     ├── 02-mathematics/
     │   ├── CMakeLists.txt # Group build script
-    │   ├── easy
-    │   ├── medium
-    │   ├── hard
     ├── 03-bit-manipulation/
     │   ├── CMakeLists.txt # Group build script
-    │   ├── easy
-    │   ├── medium
-    │   ├── hard
     ├── 04-recursion/
     │   ├── CMakeLists.txt # Group build script
-    │   ├── easy
-    │   ├── medium
-    │   ├── hard
     ├── 05-arrays/
     │   ├── CMakeLists.txt # Group build script
-    │   ├── easy
-    │   ├── medium
-    │   ├── hard
     ├── 06-searching/
     │   ├── CMakeLists.txt # Group build script
-    │   ├── easy
-    │   ├── medium
-    │   ├── hard
     ├── 07-sorting/
     │   ├── CMakeLists.txt # Group build script
-    │   ├── easy
-    │   ├── medium
-    │   ├── hard
     ├── 08-matrix/
     │   ├── CMakeLists.txt # Group build script
-    │   ├── easy
-    │   ├── medium
-    │   ├── hard
     ├── 09-hashing/
     │   ├── CMakeLists.txt # Group build script
-    │   ├── easy
-    │   ├── medium
-    │   ├── hard
     ├── 10-strings/
     │   ├── CMakeLists.txt # Group build script
-    │   ├── easy
-    │   ├── medium
-    │   ├── hard
     ├── 11-linkedlist/
     │   ├── CMakeLists.txt # Group build script
-    │   ├── easy
-    │   ├── medium
-    │   ├── hard
     ├── 12-stack/
     │   ├── CMakeLists.txt # Group build script
-    │   ├── easy
-    │   ├── medium
-    │   ├── hard
     ├── 13-queue/
     │   ├── CMakeLists.txt # Group build script
-    │   ├── easy
-    │   ├── medium
-    │   ├── hard
     ├── 14-deque/
     │   ├── CMakeLists.txt # Group build script
-    │   ├── easy
-    │   ├── medium
-    │   ├── hard
     ├── 15-tree/
     │   ├── CMakeLists.txt # Group build script
-    │   ├── easy
-    │   ├── medium
-    │   ├── hard
     ├── 16-bst/
     │   ├── CMakeLists.txt # Group build script
-    │   ├── easy
-    │   ├── medium
-    │   ├── hard
     ├── 17-heap/
     │   ├── CMakeLists.txt # Group build script
-    │   ├── easy
-    │   ├── medium
-    │   ├── hard
     ├── 18-graph/
     │   ├── CMakeLists.txt # Group build script
-    │   ├── easy
-    │   ├── medium
-    │   ├── hard
     ├── 19-greedy-programming/
     │   ├── CMakeLists.txt # Group build script
-    │   ├── easy
-    │   ├── medium
-    │   ├── hard
     ├── 20-backtracking/
     │   ├── CMakeLists.txt # Group build script
-    │   ├── easy
-    │   ├── medium
-    │   ├── hard
     ├── 21-dynamic-programming/
     │   ├── CMakeLists.txt # Group build script
-    │   ├── easy
-    │   ├── medium
-    │   ├── hard
     ├── 22-trie/
     │   ├── CMakeLists.txt # Group build script
-    │   ├── easy
-    │   ├── medium
-    │   ├── hard
     ├── 23-segment-tree/
     │   ├── CMakeLists.txt # Group build script
-    │   ├── easy
-    │   ├── medium
-    │   ├── hard
     ├── 24-disjoint-set/
     │   ├── CMakeLists.txt # Group build script
-    │   ├── easy
-    │   ├── medium
-    │   ├── hard
 
 ```
-
 
 ## 🚀 How to Build and Run Problems
 
 This repository uses a **build directory isolation** approach via CMake to keep source files completely clean from compiled artifacts.
 
-### Prerequisites
+## Prerequisites or Dependencies
 Ensure you have a modern C++ compiler (supporting C++17 or higher) and CMake installed on your machine.
 
 ### 1. Configure and Build
