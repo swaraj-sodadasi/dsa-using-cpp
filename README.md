@@ -120,7 +120,3 @@ add_executable(problem_name problem_name.cpp)
 > * Read the interactive code layouts: **[Live Doxygen Documentation Site](https://swaraj-sodadasi.github.io/dsa-using-cpp/)**
 > * Monitor the cloud deployment status: **[GitHub Actions Workflow](https://github.com/swaraj-sodadasi/dsa-using-cpp/actions/workflows/deploy-docs.yml)**
 >
-
-<!-- LICENSE -->
-## LICENSE
-MIT License
