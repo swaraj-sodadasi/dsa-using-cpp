@@ -1,5 +1,5 @@
 # Create an executable for each problem file
-add_executable(two-sum two-sum.cpp)
+add_executable(two-sum-1 two-sum-1.cpp)
 add_executable(remove-duplicates-sorted-array remove-duplicates-sorted-array.cpp)
 add_executable(majority-element majority-element.cpp)
 add_executable(best-time-buy-sell best-time-buy-sell.cpp)
