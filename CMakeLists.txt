@@ -30,6 +30,7 @@ add_subdirectory(src/10-strings)
 add_subdirectory(src/11-linkedlist)
 add_subdirectory(src/12-stack)
 add_subdirectory(src/13-queue)
+add_subdirectory(src/14-deque)
 # Add other categories as you create them
 
 # ==============================================================================
