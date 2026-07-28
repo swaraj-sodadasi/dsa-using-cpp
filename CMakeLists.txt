@@ -33,6 +33,10 @@ add_subdirectory(src/13-queue)
 add_subdirectory(src/14-deque)
 add_subdirectory(src/15-tree)
 add_subdirectory(src/16-bst)
+add_subdirectory(src/17-heap)
+add_subdirectory(src/18-graph)
+add_subdirectory(src/19-greedy)
+add_subdirectory(src/20-backtracking)
 # Add other categories as you create them
 
 # ==============================================================================
