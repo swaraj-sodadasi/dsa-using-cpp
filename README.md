@@ -17,54 +17,29 @@ dsa-cpp-practice/
 ├── README.md              # Project documentation
 └── src/
     ├── 01-introduction/
-    │   ├── CMakeLists.txt # Group build script
     ├── 02-mathematics/
-    │   ├── CMakeLists.txt # Group build script
     ├── 03-bit-manipulation/
-    │   ├── CMakeLists.txt # Group build script
     ├── 04-recursion/
-    │   ├── CMakeLists.txt # Group build script
     ├── 05-arrays/
-    │   ├── CMakeLists.txt # Group build script
     ├── 06-searching/
-    │   ├── CMakeLists.txt # Group build script
     ├── 07-sorting/
-    │   ├── CMakeLists.txt # Group build script
     ├── 08-matrix/
-    │   ├── CMakeLists.txt # Group build script
     ├── 09-hashing/
-    │   ├── CMakeLists.txt # Group build script
     ├── 10-strings/
-    │   ├── CMakeLists.txt # Group build script
     ├── 11-linkedlist/
-    │   ├── CMakeLists.txt # Group build script
     ├── 12-stack/
-    │   ├── CMakeLists.txt # Group build script
     ├── 13-queue/
-    │   ├── CMakeLists.txt # Group build script
     ├── 14-deque/
-    │   ├── CMakeLists.txt # Group build script
     ├── 15-tree/
-    │   ├── CMakeLists.txt # Group build script
     ├── 16-bst/
-    │   ├── CMakeLists.txt # Group build script
     ├── 17-heap/
-    │   ├── CMakeLists.txt # Group build script
     ├── 18-graph/
-    │   ├── CMakeLists.txt # Group build script
     ├── 19-greedy-programming/
-    │   ├── CMakeLists.txt # Group build script
     ├── 20-backtracking/
-    │   ├── CMakeLists.txt # Group build script
     ├── 21-dynamic-programming/
-    │   ├── CMakeLists.txt # Group build script
     ├── 22-trie/
-    │   ├── CMakeLists.txt # Group build script
     ├── 23-segment-tree/
-    │   ├── CMakeLists.txt # Group build script
     ├── 24-disjoint-set/
-    │   ├── CMakeLists.txt # Group build script
-
 ```
 
 ## 🚀 How to Build and Run Problems
