@@ -38,6 +38,7 @@ add_subdirectory(src/18-graph)
 add_subdirectory(src/19-greedy)
 add_subdirectory(src/20-backtracking)
 add_subdirectory(src/21-dynamic-programming)
+add_subdirectory(src/22-trie)
 # Add other categories as you create them
 
 # ==============================================================================
